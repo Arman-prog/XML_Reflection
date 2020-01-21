@@ -12,20 +12,15 @@ namespace XML_Reflection
     {
         static void Main(string[] args)
         {
-           
+            Student_Repository repository = new Student_Repository(@"Data\Students.xml");
+            var stlist = repository.AsEnumarable().ToList();
+
+            stlist.SaveToXML("NewStudents.xml");
            
 
             
         }
-        static void PrivateReader<T>(T item)
-        {
-            Type type = typeof(T);
-            FieldInfo[] fields = type.GetFields();
-            foreach (FieldInfo field in fields)
-            {
-                Console.WriteLine(field.GetValue(item));
-            }
-        }
+        
 
        
     }

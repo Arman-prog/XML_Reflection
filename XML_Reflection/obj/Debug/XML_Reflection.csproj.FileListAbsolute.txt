@@ -1,0 +1,9 @@
+C:\Users\LabUser21\Desktop\DescTop\Arman Harutyunyan\ASP.NET\XML_Reflection\XML_Reflection\bin\Debug\Data\Students.xml
+C:\Users\LabUser21\Desktop\DescTop\Arman Harutyunyan\ASP.NET\XML_Reflection\XML_Reflection\bin\Debug\Data\Teachers.xml
+C:\Users\LabUser21\Desktop\DescTop\Arman Harutyunyan\ASP.NET\XML_Reflection\XML_Reflection\bin\Debug\XML_Reflection.exe.config
+C:\Users\LabUser21\Desktop\DescTop\Arman Harutyunyan\ASP.NET\XML_Reflection\XML_Reflection\bin\Debug\XML_Reflection.exe
+C:\Users\LabUser21\Desktop\DescTop\Arman Harutyunyan\ASP.NET\XML_Reflection\XML_Reflection\bin\Debug\XML_Reflection.pdb
+C:\Users\LabUser21\Desktop\DescTop\Arman Harutyunyan\ASP.NET\XML_Reflection\XML_Reflection\obj\Debug\XML_Reflection.csprojAssemblyReference.cache
+C:\Users\LabUser21\Desktop\DescTop\Arman Harutyunyan\ASP.NET\XML_Reflection\XML_Reflection\obj\Debug\XML_Reflection.csproj.CoreCompileInputs.cache
+C:\Users\LabUser21\Desktop\DescTop\Arman Harutyunyan\ASP.NET\XML_Reflection\XML_Reflection\obj\Debug\XML_Reflection.exe
+C:\Users\LabUser21\Desktop\DescTop\Arman Harutyunyan\ASP.NET\XML_Reflection\XML_Reflection\obj\Debug\XML_Reflection.pdb

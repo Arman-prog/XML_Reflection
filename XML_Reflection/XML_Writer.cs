@@ -16,20 +16,20 @@ namespace XML_Reflection
             
                 Type elementtype = typeof(T);
                
-                FieldInfo[] fields = elementtype.GetFields(BindingFlags.Instance
+                PropertyInfo[] Properties = elementtype.GetProperties(BindingFlags.Instance
                 | BindingFlags.Public
                 | BindingFlags.DeclaredOnly);
 
                 textWriter.WriteStartDocument();
-                textWriter.WriteStartElement($"List of {elementtype.Name}s");
+                textWriter.WriteStartElement($"Listof{elementtype.Name}s");
 
                 foreach (T item in data)
                 {
                     textWriter.WriteStartElement(elementtype.Name);
-                    foreach (FieldInfo field in fields)
+                    foreach (PropertyInfo property in Properties)
                     {
-                        object value = field.GetValue(item);
-                        textWriter.WriteStartElement(field.Name);
+                        object value = property.GetValue(item);
+                        textWriter.WriteStartElement(property.Name);
                         textWriter.WriteValue(value);
                         textWriter.WriteEndElement();
                     }
